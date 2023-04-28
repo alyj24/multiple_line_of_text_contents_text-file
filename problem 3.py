@@ -8,6 +8,7 @@ print("\033[91m=" * 42)
 
 # pseudocode
 # open, create a text file to store the input lines
+with open("mylife.txt", "w") as problem_three_lines_file:
 # ask the user for an input that will serve as context lines
 # establish a loop that ask the user for a line until there is none
 # write the input line to the file
