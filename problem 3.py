@@ -17,5 +17,7 @@ with open("mylife.txt", "w") as problem_three_lines_file:
      problem_three_lines_file.write(my_line + "\n")
      # ask the user if there is more lines to input
      add_line = input("\033[95Are there more lines y/n?: ")
-# if the user enter n, exit the loop
+     # if the user enter n, exit the loop
+     if add_line.lower() == "n"
+         break
 # print the lines entered to the created file
