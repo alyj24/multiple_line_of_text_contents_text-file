@@ -21,3 +21,6 @@ with open("mylife.txt", "w") as problem_three_lines_file:
      if add_line.lower() == "n"
          break
 # print the lines entered to the created file
+print("\033[92m~" * 60)
+print("\033[94mGreat! Your text file named mylife.txt is now saved and created.")
+print("\033[92m~" * 60)
