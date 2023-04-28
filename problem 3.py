@@ -13,7 +13,8 @@ with open("mylife.txt", "w") as problem_three_lines_file:
      # establish a loop that ask the user for a line until there is none
      while True:
          my_line = input("\033[93mEnter a line: ")
-# write the input line to the file
-# ask the user if there is more lines to input
+     # write the input line to the file
+     problem_three_lines_file.write(my_line + "\n")
+     # ask the user if there is more lines to input
 # if the user enter n, exit the loop
 # print the lines entered to the created file
