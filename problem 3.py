@@ -9,8 +9,10 @@ print("\033[91m=" * 42)
 # pseudocode
 # open, create a text file to store the input lines
 with open("mylife.txt", "w") as problem_three_lines_file:
-# ask the user for an input that will serve as context lines
-# establish a loop that ask the user for a line until there is none
+     # ask the user for an input that will serve as context lines
+     # establish a loop that ask the user for a line until there is none
+     while True:
+         my_line = input("\033[93mEnter a line: ")
 # write the input line to the file
 # ask the user if there is more lines to input
 # if the user enter n, exit the loop
