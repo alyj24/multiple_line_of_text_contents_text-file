@@ -6,3 +6,11 @@ print("\033[91m=" * 42)
 # writing a method in python where the user can write a multiple line of context
 # and will store into a text file named "mylife.txt"
 
+# pseudocode
+# open, create a text file to store the input lines
+# ask the user for an input that will serve as context lines
+# establish a loop that ask the user for a line until there is none
+# write the input line to the file
+# ask the user if there is more lines to input
+# if the user enter n, exit the loop
+# print the lines entered to the created file
